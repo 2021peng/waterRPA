@@ -146,7 +146,7 @@ if __name__ == '__main__':
     #打开文件
     wb = xlrd.open_workbook(filename=file)
     #通过索引获取表格sheet页
-    sheet1 = wb.sheet_by_index(0)
+    sheet1 = wb.sheet_by_index(2)
     print('欢迎使用不高兴就喝水牌RPA~')
     #数据检查
     checkCmd = dataCheck(sheet1)
